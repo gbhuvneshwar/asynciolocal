@@ -1,0 +1,12 @@
+<ns0:modifyRequest xmlns:ns0="urn:siemens:names:prov:gw:SPML:2:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnResultingObject="none">
+<version>HLR_SUBSCRIBER_v45</version>
+<objectclass>Subscriber</objectclass>
+<identifier>Test1</identifier>
+<modification operation="addorset">
+<valueObject xsi:type="sub:HLR">
+
+    <odbic>1</odbic>
+
+</valueObject>
+</modification>
+</ns0:modifyRequest>

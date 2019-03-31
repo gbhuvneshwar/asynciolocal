@@ -1,0 +1,11 @@
+1. Python’s select() function is a direct interface to the underlying operating system implementation.
+   It monitors sockets, open files, and pipes (anything with a fileno() method that  returns a valid file descriptor) 
+   until they become readable or writable or a communication error occurs. 
+   
+   select() makes it easier to monitor multiple connections at the same time, and is more efficient than writing a polling loop in Python using socket timeouts, 
+   because the monitoring happens in the operating system network layer, instead of the interpreter.
+
+
+2. Note: Using Python’s file objects with select() works for Unix, but is not supported under Windows.
+
+3. https://pymotw.com/3/select/index.html#module-select

@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+
+<soapenv:Header/>
+<soapenv:Body>
+<spmlChangeDirective mode="add" identifier="/media/sf_ubuntu/python_pgw_proxy/async_code/xml_files/modify_odbic.xml">
+
+<parameter name="_odbic" value="1"/>
+</spmlChangeDirective>
+</soapenv:Body>
+</soapenv:Envelope>
+
